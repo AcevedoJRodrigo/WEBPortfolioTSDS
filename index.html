@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/da3c25105a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>My portfolio - Acevedo Javier Rodrigo</title>
+</head>
+
+<body>
+
+    <section id="headerPart">
+
+        <header>
+            <div class="cornerTitle" style="margin-right: 25%; margin-left: 5%;">PERSONAL PORTFOLIO</div>
+            <div class="marginIconsHeader" ; title="About"><button onclick="slowScrollToSection('about')"><i
+                        class="fa-solid fa-person-circle-question fa-2xl" style="color: #e6db74;"></i></button></div>
+            <div class="marginIconsHeader" ; title="Skills"><button onclick="slowScrollToSection('programLenguages')"><i
+                        class="fa-solid fa-code fa-2xl" style="color: #e6db74;"></i></button></div>
+            <div class="marginIconsHeader" ; title="Projects"><button onclick="slowScrollToSection('projects')"><i
+                        class="fa-solid fa-paperclip fa-2xl" style="color: #e6db74;"></i></button></div>
+            <div class="marginIconsHeader" ; title="Soft Skills"><button onclick="slowScrollToSection('softSkills')"><i
+                        class="fa-solid fa-users fa-2xl" style="color: #e6db74;"></i></button></div>
+            <div class="marginIconsHeader" ; title="Social"><button onclick="slowScrollToSection('socialMedia')"><i
+                        class="fa-solid fa-at fa-2xl" style="color: #e6db74;"></i></button></div>
+                        <div class="easterEgg"><button onclick="openEasterEgg()"; class="magicButton"><i class="fa-regular fa-eye fa-sm" style="color: rgb(39, 39, 39);"></i></button></div>
+
+
+        </header>
+
+    </section>
+
+
+    <section id="postHeader">
+
+
+
+        <section id="inicio">
+
+            <h1 id="opacidad" class="Red marginLeftTittles">&lt; MY PORTFOLIO &gt; </h1>
+            <h2 class="Green"> /Acevedo Javier Rodrigo</h2>
+            <p class="Yellow marginLeft" style="margin-bottom: 5%;">
+                Here you will find all the projects I've worked on!
+            </p>
+
+
+        </section>
+
+        <section id="segundaSeccion">
+
+            <section id="about">
+
+                <div style="margin-right: 3%; margin-top: 5%;">
+                    <img src="./images/profilePic.png" alt="foto de perfil" width="100px"
+                        height="100px" style="border-radius: 25px;">
+                </div>
+
+                <div>
+
+                    <h1 class="Red secondaryTittles">About Me! <span
+                            style="color:rgb(230, 219, 116);font-weight: bold; font-size: 30px;">{</span></h1>
+
+                    <p>
+                        My name is Javier Rodrigo Acevedo, I'm currently a<br> 
+                        student of Software Development Superior Technicature <br>
+                        at the institute "I.S.P N°63 Natalia Quessús". <br>
+                        I am a Software Developer in training from Argentina. <br>
+                        Additionally, I am an amateur music producer and  <br>
+                        enjoy gaming during my free time. <br>
+                    </p>
+
+                    <h1 style="margin-top: 0%; font-size: 30px;" class="Yellow">}</h1>
+
+                </div>
+
+            </section>
+
+
+            <section id="iconosAdorno">
+
+
+                <i class="fa-solid fa-person-circle-question fa-2xl" style="color: #e6db74;"></i>
+
+            </section>
+
+        </section>
+
+        <section id="programLenguages">
+
+
+            <div class="iconosAdorno2">
+
+                <i class="fa-solid fa-code fa-2xl" style="color: #e6db74;"></i>
+
+            </div>
+
+
+            <section class="bordesSombra">
+
+                <h1 class="Red secondaryTittles">&lt; SKILLS &gt;</h1>
+
+                <ul>PSeInt</ul>
+                <ul>HTML</ul>
+                <ul>CSS</ul>
+
+            </section>
+
+
+
+
+        </section>
+
+        <section id="projects">
+
+            <div class="bordesSombra">
+
+
+                <h1 class="Red secondaryTittles">&lt; PROJECTS &gt;</h1>
+                <a href="https://drive.google.com/drive/folders/1mmztTrk_S0pogppUNYfjll1qbbkcimwe?usp=sharing"
+                    target="_blank"><img src="./images/pseint.jpg" alt="Pseintimage" class="imageButton"></a>
+
+            </div>
+
+            <div class="iconosAdorno3">
+
+                <i class="fa-solid fa-paperclip fa-2xl" style="color: #e6db74;"></i>
+
+            </div>
+
+
+        </section>
+
+        <section id="softSkills">
+            <div class="iconosAdorno4">
+
+                <i class="fa-solid fa-users fa-2xl" style="color: #e6db74;"></i>
+
+            </div ">
+
+            <div class=" rightSide">
+            <h1 class="Red secondaryTittles" style="margin-left: 10%;">&lt; Soft Skills &gt;</h1>
+            <ul>Comunication</ul>
+            <ul>Teamwork</ul>
+            <ul>Problem management</ul>
+            <ul>Creativity</ul>
+            <ul>Leadership</ul>
+
+            </div>
+
+        </section>
+
+        <div id="notification" class="hidden"> Copied to clipboard</div>
+
+        <section id="socialMedia">
+            <div class="socialLogos">
+                <a href="https://www.instagram.com/rod.acvd" target="_blank" ; title="Go to instagram"><i
+                        class="fa-brands fa-instagram fa-2xl" style="color: #e6db74;"></i></a>
+
+            </div>
+            <div class="socialLogos">
+                <a href="https://github.com/AcevedoJRodrigo" target="_blank" ; title="Go to Github"><i
+                        class="fa-brands fa-square-github fa-2xl" style="color: #e6db74;"></i></a>
+            </div>
+
+            <div class="socialLogos">
+                <button onclick="copyText()" ; title="Copy email"><i class="fa-solid fa-at fa-2xl"
+                        style="color: #e6db74;"></i></button>
+
+            </div>
+
+
+
+
+        </section>
+
+    </section>
+
+    <footer>
+        <div>
+
+
+            <button class="arrowUp" ; title="Go to the top" ; onclick="slowScrollToSection('headerPart')"><i
+                    class="fa-solid fa-arrow-up fa-2xl" style="color: #e6db74;"></i></button>
+
+        </div>
+    </footer>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

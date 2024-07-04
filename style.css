@@ -1,0 +1,325 @@
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Light"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Semilight"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Bold"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Semibold"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");
+    font-weight: 700;
+}
+
+* {
+    margin: 0px;
+}
+
+
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#postHeader {
+    margin-left: 1%;
+}
+
+#inicio {
+    background-size: 100%;
+    background-image: url(./images/backgroundhead.png);
+    text-shadow: 2px 2px #1a1a1a;
+    border-radius: 25px;
+    margin: 2%;
+    margin-right: 3%;
+    margin-top: 5%;
+    padding: 1%;
+    box-shadow: 2px 2px 10px black;
+}
+
+.Red {
+    color: rgb(249, 38, 114);
+    font-weight: normal;
+
+}
+
+.Green {
+    color: rgb(166, 226, 46);
+    font-weight: normal;
+
+}
+
+.Yellow {
+    color: rgb(230, 219, 116);
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(22, 22, 22);
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(221, 221, 221);
+    box-shadow: 1px 1px 5px black;
+}
+
+.marginIconsHeader {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: small;
+
+}
+
+
+.marginLeftTittles {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.marginLeft {
+    margin-left: 10%;
+}
+
+.secondaryTittles {
+    font-size: 50px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+
+
+
+h1 {
+    font-size: 75px;
+
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+p {
+    color: rgb(221, 221, 221);
+    font-size: small;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    background-color: rgb(41, 41, 41);
+    margin-left: 2%;
+    margin-right: 20%;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px black;
+}
+
+ul {
+    list-style: none;
+    color: rgb(230, 219, 116);
+    margin: 1%;
+    margin-left: 2%;
+    font-size: 25px;
+
+}
+
+.imageButton {
+    height: 100px;
+    width: 150px;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 10px 10px 2px black;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: translateY(-6px);
+
+
+}
+
+#socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socialLogos {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+
+}
+
+#segundaSeccion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#iconosAdorno {
+    justify-content: center;
+    font-size: 50px;
+
+}
+
+
+
+.bordesSombra {
+    background-color: rgb(41, 41, 41);
+    padding: 3%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px black;
+    margin: 2%;
+
+}
+
+#programLenguages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-right: 1%;
+    margin-top: 5%;
+}
+
+.iconosAdorno2 {
+    margin-right: 20%;
+    font-size: 50px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.iconosAdorno3 {
+    font-size: 50px;
+    margin-left: 20%;
+}
+
+#softSkills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+
+
+}
+
+.rightSide {
+    background-color: rgb(41, 41, 41);
+    padding: 3%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px black;
+    margin-left: 30%;
+    margin-right: 3%;
+
+}
+
+.iconosAdorno4 {
+    font-size: 50px;
+}
+
+button {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+#notification {
+    margin-top: 50px;
+    margin-left: 40%;
+    padding: 10px;
+    background-color: #313131;
+    color: rgb(95, 95, 95);
+    display: inline-block;
+    border-radius: 5px;
+    transition: opacity 0.5s;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    margin-right: 3%;
+    justify-content: end;
+}
+
+.arrowUp {
+    background-color: rgb(41, 41, 41);
+    padding: 15%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.magicButton {
+    opacity: 0;
+}
+
+.easterEgg:hover .magicButton {
+    opacity: 1;
+
+}
+
+.cornerTitle {
+    flex-shrink: 0;
+}
